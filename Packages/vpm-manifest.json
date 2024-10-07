@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "com.vrchat.base": {
+      "version": "3.5.1"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.5.1"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28"
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.3.1"
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "2.1.5"
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.3.0"
+    }
+  },
+  "locked": {
+    "com.vrchat.base": {
+      "version": "3.5.1",
+      "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.5.1",
+      "dependencies": {
+        "com.vrchat.base": "3.5.1"
+      }
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28",
+      "dependencies": {}
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.3.1",
+      "dependencies": {}
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "2.1.5",
+      "dependencies": {
+        "com.vrchat.base": "^3.2.x"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.3.0",
+      "dependencies": {}
+    }
+  }
+}
